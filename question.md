@@ -15,3 +15,11 @@
 
 - Relational Database Management System: The data is stored in relations (tables). Example – MySQL.
 - Non-Relational Database Management System: There is no concept of relations, tuples and attributes.  Example – MongoDB
+
+
+# 4. What do you mean by table and field in SQL?
+`A table refers to a collection of data in an organised manner in form of rows and columns. A field refers to the number of columns in a table.`
+**For example:**
+
+`Table: StudentInformation`
+`Field: Stu Id, Stu Name, Stu Marks`
