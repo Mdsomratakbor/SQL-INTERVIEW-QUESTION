@@ -57,6 +57,75 @@ Constraints in SQL are used to specify the limit on the data type of the table. 
 <table style="height: 158px;" border="1" width="100%"><caption><p style="text-align: center;"><strong><span> DELETE vs TRUNCATE</span></strong></p></caption><tbody><tr style="height: 41.1563px;"><td><span><strong>DELETE</strong></span></td><td><span><strong>TRUNCATE</strong></span></td></tr><tr style="height: 48px;"><td style="padding: 5px; width: 394px; text-align: justify; height: 48px;"><span>Delete command is used to delete a row in a table.</span></td><td style="padding: 5px; width: 365px; text-align: justify; height: 48px;"><span>Truncate is used to delete all the rows from a table.</span></td></tr><tr style="height: 24px;"><td style="padding: 5px; width: 394px; text-align: justify; height: 24px;"><span>You can rollback data after using delete statement.<a name="uniquekey"></a></span></td><td style="padding: 5px; width: 365px; text-align: justify; height: 24px;"><span>You cannot rollback data.</span></td></tr><tr style="height: 24px;"><td style="padding: 5px; width: 394px; text-align: justify; height: 24px;"><span>It is a DML command.</span></td><td style="padding: 5px; width: 365px; text-align: justify; height: 24px;"><span>It is a DDL command.</span></td></tr><tr style="height: 24px;"><td style="padding: 5px; width: 394px; text-align: justify; height: 24px;"><span>It is slower than truncate statement.</span></td><td style="padding: 5px; width: 365px; text-align: justify; height: 24px;"><span>It is faster.</span></td></tr></tbody></table>
 
 
+# 10. What is a Unique key?
+- Uniquely identifies a single row in the table.
+- Multiple values allowed per table.
+- Null values allowed. 
+
+# 11. What is a Foreign key in SQL?
+- Foreign key maintains referential integrity by enforcing a link between the data in two tables.
+- The foreign key in the child table references the primary key in the parent table.
+- The foreign key constraint prevents actions that would destroy links between the child and parent tables.
+
+# 12. What do you mean by data integrity? 
+`Data Integrity defines the accuracy as well as the consistency of the data stored in a database. It also defines integrity constraints to enforce business rules on the data when it is entered into an application or a database.`
+
+# 13. What is the difference between clustered and non-clustered index in SQL?
+The differences between the clustered and non clustered index in SQL are :
+
+- `Clustered index is used for easy retrieval of data from the database and its faster whereas reading from non clustered index is relatively slower.`
+- `Clustered index alters the way records are stored in a database as it sorts out rows by the column which is set to be clustered index whereas in a non clustered index, it does not alter the way it was stored but it creates a separate object within a table which points back to the original table rows after searching.`
+- `One table can only have one clustered index whereas it can have many non clustered index.`
+
+# 14. What do you understand by query optimization?
+`The phase that identifies a plan for evaluation query which has the least estimated cost is known as query optimization.`
+`The advantages of query optimization are as follows:`
+- `The output is provided faster`
+- `A larger number of queries can be executed in less time`
+- `Reduces time and space complexity`
+
+# 15. What do you mean by Denormalization?
+`Denormalization refers to a technique which is used to access data from higher to lower forms of a database. It helps the database managers to increase the performance of the entire infrastructure as it introduces redundancy into a table. It adds the redundant data into a table by incorporating database queries that combine data from various tables into a single table.`
+
+# 16. What is an Index?
+`An index refers to a performance tuning method of allowing faster retrieval of records from the table. An index creates an entry for each value and hence it will be faster to retrieve data.`
+
+# 17. Explain different types of index in SQL.
+`There are three types of index in SQL namely:`
+
+**Unique Index:**
+`This index does not allow the field to have duplicate values if the column is unique indexed. If a primary key is defined, a unique index can be applied automatically.`
+
+**Clustered Index:**
+`This index reorders the physical order of the table and searches based on the basis of key values. Each table can only have one clustered index.`
+
+**Non-Clustered Index:**
+`Non-Clustered Index does not alter the physical order of the table and maintains a logical order of the data. Each table can have many nonclustered indexes.`
+
+# 18. What is Normalization and what are the advantages of it?
+`Normalization in SQL is the process of organizing data to avoid duplication and redundancy. Some of the advantages are:`
+
+- `Better Database organization`
+- `More Tables with smaller rows`
+- `Efficient data access`
+- `Greater Flexibility for Queries`
+- `Quickly find the information`
+- `Easier to implement Security`
+- `Allows easy modification`
+- `Reduction of redundant and duplicate data`
+- `More Compact Database`
+- `Ensure Consistent data after modification`
+
+
+
+
+
+
+
+
+
+
+
 
 
 
