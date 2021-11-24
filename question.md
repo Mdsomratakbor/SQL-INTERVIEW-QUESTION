@@ -37,15 +37,20 @@
 `Both Char and Varchar2 are used for characters datatype but varchar2 is used for character strings of variable length whereas Char is used for strings of fixed length. For example, char(10) can only store 10 characters and will not be able to store a string of any other length whereas varchar2(10) can store any length i.e 6,8,2 in this variable.`
 
 
-#7. What is a Primary key?
+# 7. What is a Primary key?
 - `Table - SQL Interview Questions - EdurekaA Primary key in SQL is a column (or collection of columns) or a set of columns that uniquely identifies each row in the table.`
 - `Uniquely identifies a single row in the table`
 - `Null values not allowed`
 **Example- In the Student table, Stu_ID is the primary key.**
 
-
-
-
+# 8. What are Constraints?
+Constraints in SQL are used to specify the limit on the data type of the table. It can be specified while creating or altering the table statement. The sample of constraints are:
+- NOT NULL
+- CHECK
+- DEFAULT
+- UNIQUE
+- PRIMARY KEY
+- FOREIGN KEY
 
 
 
