@@ -53,7 +53,8 @@ Constraints in SQL are used to specify the limit on the data type of the table. 
 - FOREIGN KEY
 
 
-
+# 9. What is the difference between DELETE and TRUNCATE statements?
+<table style="height: 158px;" border="1" width="100%"><caption><p style="text-align: center;"><strong><span> DELETE vs TRUNCATE</span></strong></p></caption><tbody><tr style="height: 41.1563px;"><td><span><strong>DELETE</strong></span></td><td><span><strong>TRUNCATE</strong></span></td></tr><tr style="height: 48px;"><td style="padding: 5px; width: 394px; text-align: justify; height: 48px;"><span>Delete command is used to delete a row in a table.</span></td><td style="padding: 5px; width: 365px; text-align: justify; height: 48px;"><span>Truncate is used to delete all the rows from a table.</span></td></tr><tr style="height: 24px;"><td style="padding: 5px; width: 394px; text-align: justify; height: 24px;"><span>You can rollback data after using delete statement.<a name="uniquekey"></a></span></td><td style="padding: 5px; width: 365px; text-align: justify; height: 24px;"><span>You cannot rollback data.</span></td></tr><tr style="height: 24px;"><td style="padding: 5px; width: 394px; text-align: justify; height: 24px;"><span>It is a DML command.</span></td><td style="padding: 5px; width: 365px; text-align: justify; height: 24px;"><span>It is a DDL command.</span></td></tr><tr style="height: 24px;"><td style="padding: 5px; width: 394px; text-align: justify; height: 24px;"><span>It is slower than truncate statement.</span></td><td style="padding: 5px; width: 365px; text-align: justify; height: 24px;"><span>It is faster.</span></td></tr></tbody></table>
 
 
 
