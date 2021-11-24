@@ -31,3 +31,27 @@
 - **Left Join:**  `Left Join in SQL is used to return all the rows from the left table but only the matching rows from the right table where the join condition is fulfilled.`
 - **Right Join:** `Right Join in SQL is used to return all the rows from the right table but only the matching rows from the left table where the join condition is fulfilled.`
 - **Full Join:** `Full join returns all the records when there is a match in any of the tables. Therefore, it returns all the rows from the left-hand side table and all the rows from the right-hand side tablen`
+
+
+# 6. What is the difference between CHAR and VARCHAR2 datatype in SQL?
+`Both Char and Varchar2 are used for characters datatype but varchar2 is used for character strings of variable length whereas Char is used for strings of fixed length. For example, char(10) can only store 10 characters and will not be able to store a string of any other length whereas varchar2(10) can store any length i.e 6,8,2 in this variable.`
+
+
+#7. What is a Primary key?
+- `Table - SQL Interview Questions - EdurekaA Primary key in SQL is a column (or collection of columns) or a set of columns that uniquely identifies each row in the table.`
+- `Uniquely identifies a single row in the table`
+- `Null values not allowed`
+**Example- In the Student table, Stu_ID is the primary key.**
+
+
+
+
+
+
+
+
+
+
+
+
+
