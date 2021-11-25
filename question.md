@@ -143,7 +143,8 @@ The differences between the clustered and non clustered index in SQL are :
 - `Comparison Operators`
 
 
-
+# 23. Are NULL values same as that of zero or a blank space? 
+`A NULL value is not at all same as that of zero or a blank space. NULL value represents a value which is unavailable, unknown, assigned or not applicable whereas a zero is a number and blank space is a character.`
 
 
 
