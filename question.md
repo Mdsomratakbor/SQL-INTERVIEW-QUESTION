@@ -146,10 +146,18 @@ The differences between the clustered and non clustered index in SQL are :
 # 23. Are NULL values same as that of zero or a blank space? 
 `A NULL value is not at all same as that of zero or a blank space. NULL value represents a value which is unavailable, unknown, assigned or not applicable whereas a zero is a number and blank space is a character.`
 
+# 24. What is the difference between cross join and natural join?
+`The cross join produces the cross product or Cartesian product of two tables whereas the natural join is based on all the columns having the same name and data types in both the tables.`
 
+# 25. What is subquery in SQL?
+`A subquery is a query inside another query where a query is defined to retrieve data or information back from the database. In a subquery, the outer query is called as the main query whereas the inner query is called subquery. Subqueries are always executed first and the result of the subquery is passed on to the main query. It can be nested inside a SELECT, UPDATE or any other query. A subquery can also use any comparison operators such as >,< or =.`
 
+# 26. What are the different types of a subquery?
+`There are two types of subquery namely, Correlated and Non-Correlated.`
 
+**Correlated subquery:** `These are queries which select the data from a table referenced in the outer query. It is not considered as an independent query as it refers to another table and refers the column in a table.`
 
+**Non-Correlated subquery:** `This query is an independent query where the output of subquery is substituted in the main query.`
 
 
 
