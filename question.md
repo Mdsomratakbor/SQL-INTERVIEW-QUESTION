@@ -159,5 +159,35 @@ The differences between the clustered and non clustered index in SQL are :
 
 **Non-Correlated subquery:** `This query is an independent query where the output of subquery is substituted in the main query.`
 
+# 27. What is the need for group functions in SQL? 
+`Group functions work on the set of rows and return one result per group. Some of the commonly used group functions are`: **AVG, COUNT, MAX, MIN, SUM, VARIANCE.**
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
