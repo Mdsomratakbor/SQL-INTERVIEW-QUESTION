@@ -162,6 +162,14 @@ The differences between the clustered and non clustered index in SQL are :
 # 27. What is the need for group functions in SQL? 
 `Group functions work on the set of rows and return one result per group. Some of the commonly used group functions are`: **AVG, COUNT, MAX, MIN, SUM, VARIANCE.**
 
+# 28. What is a Relationship and what are they?
+`Relation or links are between entities that have something to do with each other. Relationships are defined as the connection between the tables in a database. There are various relationships, namely:`
+
+- `One to One Relationship.`
+- `One to Many Relationship.`
+- `Many to One Relationship.`
+- `Self-Referencing Relationship.`
+
 
 
 
