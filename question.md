@@ -171,11 +171,43 @@ The differences between the clustered and non clustered index in SQL are :
 - `Self-Referencing Relationship.`
 
 
+# 29. How can you insert NULL values in a column while inserting the data?
+`NULL values in SQL can be inserted in the following ways:`
 
+- Implicitly by omitting column from column list.
+- Explicitly by specifying NULL keyword in the VALUES clause
 
+# 30. What is the main difference between ‘BETWEEN’ and ‘IN’ condition operators?
+`BETWEEN operator is used to display rows based on a range of values in a row whereas the IN condition operator is used to check for values contained in a specific set of values.`
 
+`Example of BETWEEN:`
+**SELECT * FROM Students where ROLL_NO BETWEEN 10 AND 50;**
+`Example of IN:`
+**SELECT * FROM students where ROLL_NO IN (8,15,25);**
 
+# 31. Why are SQL functions used?
+`SQL functions are used for the following purposes:`
 
+- `To perform some calculations on the data`
+- `To modify individual data items`
+- `To manipulate the output`
+- `To format dates and numbers`
+- `To convert the data types`
+
+# 32. What is the need for MERGE statement?
+`This statement allows conditional update or insertion of data into a table. It performs an UPDATE if a row exists, or an INSERT if the row does not exist.`
+
+# 33. What do you mean by recursive stored procedure?
+`Recursive stored procedure refers to a stored procedure which calls by itself until it reaches some boundary condition. This recursive function or procedure helps the programmers to use the same set of code n number of times.`
+
+# 34. What is CLAUSE in SQL?
+`SQL clause helps to limit the result set by providing a condition to the query. A clause helps to filter the rows from the entire set of records.`
+
+`For example` – **WHERE, HAVING clause.**
+
+# 35. What is the difference between ‘HAVING’ CLAUSE and a ‘WHERE’ CLAUSE?
+`HAVING clause can be used only with SELECT statement. It is usually used in a GROUP BY clause and whenever GROUP BY is not used, HAVING behaves like a WHERE clause.`
+`Having Clause is only used with the GROUP BY function in a query whereas WHERE Clause is applied to each row before they are a part of the GROUP BY function in a query.`
 
 
 
