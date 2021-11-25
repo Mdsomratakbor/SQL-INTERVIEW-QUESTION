@@ -132,7 +132,15 @@ The differences between the clustered and non clustered index in SQL are :
 **Durability:** `Durability means that if a transaction has been committed, it will occur whatever may come in between such as power loss, crash or any sort of error.`
 
 
+# 21. What do you mean by “Trigger” in SQL?
+`Trigger in SQL is are a special type of stored procedures that are defined to execute automatically in place or after data modifications. It allows you to execute a batch of code when an insert, update or any other query is executed against a specific table.`
 
+# 22. What are the different operators available in SQL?
+`There are three operators available in SQL, namely:`
+
+- `Arithmetic Operators`
+- `Logical Operators`
+- `Comparison Operators`
 
 
 
