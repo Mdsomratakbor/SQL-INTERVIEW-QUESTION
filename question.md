@@ -209,9 +209,34 @@ The differences between the clustered and non clustered index in SQL are :
 `HAVING clause can be used only with SELECT statement. It is usually used in a GROUP BY clause and whenever GROUP BY is not used, HAVING behaves like a WHERE clause.`
 `Having Clause is only used with the GROUP BY function in a query whereas WHERE Clause is applied to each row before they are a part of the GROUP BY function in a query.`
 
+# 36. List the ways in which  Dynamic SQL can be executed?
+`Following are the ways in which dynamic SQL can be executed:`
 
+- Write a query with parameters.
+- Using EXEC.
+- Using sp_executesql.
+# 37. What are the various levels of constraints?
+`Constraints are the representation of a column to enforce data entity and consistency. There are two levels  of a constraint, namely:`
 
+- column level constraint
+- table level constraint
+# 38. List some case manipulation functions in SQL?
+`There are three case manipulation functions in SQL, namely:`
 
+- **LOWER:** `This function returns the string in lowercase. It takes a string as an argument and returns it by converting it into lower case. Syntax:
+ LOWER(‘string’)`
+- **UPPER:** `This function returns the string in uppercase. It takes a string as an argument and returns it by converting it into uppercase. Syntax:
+UPPER(‘string’)`
+- **INITCAP:** `This function returns the string with the first letter in uppercase and rest of the letters in lowercase. Syntax:
+ INITCAP(‘string’)`
+ 
+ # 39. What are the different set operators available in SQL?
+`Some of the available set operators are – Union, Intersect or Minus operators`
+
+# 40. What is an ALIAS command?
+`ALIAS command in SQL is the name that can be given to any table or a column. This alias name can be referred in WHERE clause to identify a particular table or a column.`
+
+**For example-** `Select emp.empID, dept.Result from employee emp, department as dept where emp.empID=dept.empID`
 
 
 
