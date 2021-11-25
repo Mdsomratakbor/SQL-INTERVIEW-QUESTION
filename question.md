@@ -116,6 +116,20 @@ The differences between the clustered and non clustered index in SQL are :
 - `More Compact Database`
 - `Ensure Consistent data after modification`
 
+# 19. Explain different types of Normalization.
+`There are many successive levels of normalization. These are called normal forms. Each consecutive normal form depends on the previous one.The first three normal forms are usually adequate.`
+
+- **First Normal Form (1NF)** – `No repeating groups within rows`
+- **Second Normal Form (2NF)** – `Every non-key (supporting) column value is dependent on the whole primary key.`
+- **Third Normal Form (3NF)** – `Dependent solely on the primary key and no other non-key (supporting) column value.`
+
+# 20. What is the ACID property in a database?
+`ACID stands for Atomicity, Consistency, Isolation, Durability. It is used to ensure that the data transactions are processed reliably in a database system.` 
+
+**Atomicity:** `Atomicity refers to the transactions that are completely done or failed where transaction refers to a single logical operation of a data. It means if one part of any transaction fails, the entire transaction fails and the database state is left unchanged.`
+**Consistency:** `Consistency ensures that the data must meet all the validation rules. In simple words,  you can say that your transaction never leaves the database without completing its state.`
+**Isolation:** `The main goal of isolation is concurrency control.`
+**Durability:** `Durability means that if a transaction has been committed, it will occur whatever may come in between such as power loss, crash or any sort of error.`
 
 
 
