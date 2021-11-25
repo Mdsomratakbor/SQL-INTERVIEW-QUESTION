@@ -238,7 +238,10 @@ UPPER(‘string’)`
 
 **For example-** `Select emp.empID, dept.Result from employee emp, department as dept where emp.empID=dept.empID`
 
+# 41. What are aggregate and scalar functions?
+`Aggregate functions are used to evaluate mathematical calculation and returns a single value. These calculations are done from the columns in a table. For example- max(),count() are calculated with respect to numeric.`
 
+`Scalar functions return a single value based on the input value. For example – UCASE(), NOW() are calculated with respect to string.`
 
 
 
