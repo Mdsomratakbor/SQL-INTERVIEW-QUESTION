@@ -243,11 +243,56 @@ UPPER(‘string’)`
 
 `Scalar functions return a single value based on the input value. For example – UCASE(), NOW() are calculated with respect to string.`
 
+# 42. Name the operator which is used in the query for pattern matching?
+`LIKE operator is used for pattern matching, and it can be used as -.`
 
+`% – It matches zero or more characters.`
+`For example- select * from students where studentname like ‘a%’`
 
+`_ (Underscore) – it matches exactly one character.`
+`For example- select * from student where studentname like ‘abc_’`
 
+# 43. What is the main difference between SQL and PL/SQL?
+`SQL is a query language that allows you to issue a single query or execute a single insert/update/delete whereas PL/SQL is Oracle’s “Procedural Language” SQL, which allows you to write a full program (loops, variables, etc.) to accomplish multiple operations such as selects/inserts/updates/deletes.`
 
+# 44. What is a View?
+`A view is a virtual table which consists of a subset of data contained in a table. Since views are not present, it takes less space to store. View can have data of one or more tables combined and it depends on the relationship.`
 
+# 45. What are Views used for?
+`A view refers to a logical snapshot based on a table or another view. It is used for the following reasons:`
+
+- Restricting access to data.
+- Making complex queries simple.
+- Ensuring data independence.
+- Providing different views of same data.
+
+# 46. What is a Stored Procedure?
+`A Stored Procedure is a function which consists of many SQL statements to access the database system. Several SQL statements are consolidated into a stored procedure and execute them whenever and wherever required which saves time and avoid writing code again and again.`
+
+# 47. List some advantages and disadvantages of Stored Procedure?
+**Advantages:**
+`A Stored Procedure can be used as a modular programming which means create once, store and call for several times whenever it is required. This supports faster execution. It also reduces network traffic and provides better security to the data.`
+
+**Disadvantage:**
+`The only disadvantage of Stored Procedure is that it can be executed only in the database and utilizes more memory in the database server.`
+
+# 48. List all the types of user-defined functions?
+`There are three types of user-defined functions, namely:`
+
+- Scalar Functions
+- Inline Table-valued functions
+- Multi-statement valued functions
+
+# 49. What do you mean by Collation?
+`Collation is defined as a set of rules that determine how data can be sorted as well as compared. Character data is sorted using the rules that define the correct character sequence along with options for specifying case-sensitivity, character width etc.`
+
+# 50. What are the different types of Collation Sensitivity?
+`Following are the different types of collation sensitivity:`
+
+- Case Sensitivity: A and a and B and b.
+- Kana Sensitivity: Japanese Kana characters.
+- Width Sensitivity: Single byte character and double-byte character.
+- Accent Sensitivity.
 
 
 
